@@ -1,26 +1,15 @@
 <template name='homeIndex'>
 
- <!--Full Page Header w/ Parallax Slider -->
-    <header class="container">
-
-
-        <!-- Clipping Mask for Slider -->
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 100 100" style="height: 143px;">
-            <polygon points="0,0 50,98 100,0 100,100 0,100"></polygon>
-        </svg>
-        <!--Quote Animation-->
-        <div id="header_quote_animation"></div>
-    </header>
+ 	{{> header}}
 
     <main>
-
-    <section id="welcome">
-        <div class="welcome-wrap">
-            <div class="welcome-wrap-inner">
-                <h1 id="welcome-header">
-                    We are<br> <span id="welcome-brand">Tenuto</span>
+	    <section id="welcome" class="jumbotron">
+                <h1 id="welcome-header">We are<br>
+                <span id="welcome-brand">Tenuto</span>
                 </h1>
+
                 <p>Adipiscing aliquam a odio phasellus auctor penatibus, ac facilisis! Hac est tortor vel mid! Montes vel pellentesque ut. Elit! <stronger class="accent">Quis aliquet</stronger> integer, lundium eros et eu magna cursus? Dis parturient tortor placerat! Sed. Placerat <stronger class="accent">sed pid</stronger>. Duis.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos repellat deleniti officia voluptate cumque adipisci obcaecati eos odit. Animi ratione ab itaque maxime praesentium tenetur, doloremque architecto amet tempora iure!</p>
+
                 <div class="row" id="welcome-link">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <a href="about.html">About <span>Tenuto</span></a>
