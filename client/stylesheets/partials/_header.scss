@@ -1,0 +1,21 @@
+
+//Full page Parallax Header 
+header.container {
+	position: relative;
+	background: url('../images/RocaLisaBG.jpg') center center no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	min-height: 1200px;
+	svg {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		fill: white;
+	}
+}
