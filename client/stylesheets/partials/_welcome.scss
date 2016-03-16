@@ -1,0 +1,17 @@
+//JUMBOTRON STYLING
+
+section#welcome {
+	padding: 80px 0 40px 0;
+	h1 {
+		line-height: 1.5;
+		padding: 0 30px 20px 30px;
+		font-weight: 300;
+	}
+}
+
+#welcome-link a {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
