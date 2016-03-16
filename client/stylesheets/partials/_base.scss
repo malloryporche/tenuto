@@ -1,10 +1,10 @@
 // Font weights
 $light: 100;
-$regular: 400;
+$regular: 300;
 $bold: 600;
 
 // Base Font
-$base-font-family: sans-serif;
+$base-font-family: "Raleway";
 $base-font-weight: $regular;
 $base-font-size: 13px;
 $base-line-height: 1.4;
@@ -18,3 +18,14 @@ $fixed-line-height: $base-line-height;
 $header-font-weight: $bold;
 
 // @import "modules/all";
+
+//Document level Font Size Adjustments
+html {
+	font-size: $base-font-size;
+}
+
+body {
+
+	font-family: "Raleway";
+	font-weight: 300;
+}
